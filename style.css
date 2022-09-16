@@ -1,0 +1,41 @@
+body {
+    background-color: #FFFAE7;
+}
+
+.index-heading {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 500%;
+    color: #3890CE;
+}
+
+.chef {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10em;
+    width: 10em;
+}
+
+.index-recipes {
+    display: inline-block;
+    text-align: center;
+    color: #3890CE;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.index-image {
+    height: 25em;
+    width: 25em;
+    border-radius: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #CCDCE5;
+    border-width: 10px;
+}
+    
+
+.index-division {
+    text-align: center;
+}
