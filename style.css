@@ -1,5 +1,24 @@
 body {
     background-color: #FFFAE7;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: #3890CE;
+
+
+}
+
+li {
+    line-height: 200%;
 }
 
 .index-heading {
@@ -7,6 +26,17 @@ body {
     text-align: center;
     font-size: 500%;
     color: #3890CE;
+}
+
+h1 {
+    color: #3890CE;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+    color: #3890CE;
+    text-decoration: underline;
+
 }
 
 .chef {
@@ -34,8 +64,45 @@ body {
     border-color: #CCDCE5;
     border-width: 10px;
 }
-    
+
 
 .index-division {
     text-align: center;
+}
+
+.recipes-intro {
+    text-align: center;
+    color: #3890CE;
+    margin-bottom: 40px;
+
+}
+
+.img-intro {
+    border-style: solid;
+    border-color: #CCDCE5;
+    border-width: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.recipes-container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFFAE7;
+    
+}
+
+.recipes-ingrediants {
+    background-color: #CCDCE5;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+
+}
+
+.recipes-steps {
+    background-color: #CCDCE5;
+    margin-bottom: 30px;
+    padding: 15px;
 }
